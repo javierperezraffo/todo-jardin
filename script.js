@@ -75,7 +75,7 @@ const highlightActiveNavLink = () => {
     });
 };
 
-// Manejo de la transparencia del encabezado y visibilidad del botón "volver arriba" al hacer scroll
+// Manejo de la transparencia del encabezado y visibilidad del botón "volver arriba" al hacer scroll y animaciones
 window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
         header.classList.add('scrolled');
@@ -89,6 +89,7 @@ window.addEventListener('scroll', () => {
         backToTopBtn.classList.remove('show');
     }
     highlightActiveNavLink(); // Llamar a la función para resaltar el enlace activo
+    handleScrollAnimation();
 });
 
 // Función para determinar si un elemento está a la vista
@@ -112,11 +113,6 @@ const handleScrollAnimation = () => {
         }
     });
 }
-
-// Event listener para ejecutar animaciones al hacer scroll
-window.addEventListener('scroll', () => {
-    handleScrollAnimation();
-});
 
 // Ejecutar la animación al cargar la página para los elementos visibles inicialmente
 document.addEventListener('DOMContentLoaded', () => {
