@@ -1,13 +1,13 @@
 # Todo Jardín
 
-Este proyecto es un sitio web estático diseñado para "Todo Jardín", un negocio de jardinería y poda en Montevideo, Uruguay. El sitio tiene como objetivo presentar los servicios de la empresa y facilitar el contacto a través de WhatsApp.
+Este proyecto es un sitio web estático diseñado para "Todo Jardín", un negocio de jardinería en Montevideo, Uruguay. El sitio tiene como objetivo presentar los servicios de la empresa y facilitar el contacto a través de WhatsApp.
 
 ## Características
 
 - **Página de Inicio:** Presentación del negocio con un banner principal.
-- **Servicios:** Sección detallada de los servicios ofrecidos (poda, limpieza de terrenos, mantenimiento de jardines).
+- **Servicios:** Sección detallada de los servicios ofrecidos (mantenimiento de jardines, corte de césped y cercos, limpieza de terrenos).
 - **Sobre Nosotros:** Información sobre la empresa y su experiencia.
-- **Llamada a la Acción (CTA):** Invitación a solicitar presupuestos sin costo y agendar citas.
+- **Llamada a la Acción (CTA):** Invitación a solicitar presupuestos sin costo por WhatsApp.
 - **Contacto:** Información de contacto principal con enlace directo a WhatsApp.
 - **Navegación Responsiva:** Menú adaptable para dispositivos móviles.
 - **Animaciones de Scroll:** Efectos visuales al desplazarse por la página.
